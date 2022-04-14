@@ -234,7 +234,7 @@ save_alt_chart(pca_chart, 'PCA_cumulative_expvar.html')
 
 # generate optimal PCA model
 print("OPTIMIZING PCA MODEL")
-pca_optim, pca_optim_components = optimize_pca(X_train_scaled, optim_summary, use_default_components=True)
+pca_optim, pca_optim_components = optimize_pca(X_train_scaled, optim_summary, use_default_components=False)
 save_pca_output(pca_optim_components, ANALYTIC_DATA_PATH+"PCAcomponents_"+ANALYTIC_PATH_ENDPOINTS[2012])
 
 # PCA on 2018 data
