@@ -22,16 +22,11 @@ def read_analytic_data():
     return train_df, test_df
 
 def save_alt_chart(alt_chart, chart_path):
-    if os.path.exists(UTIL_PLOT_PATH) == False:
-        os.mkdir(UTIL_PLOT_PATH)
-
+    if os.path.exists(FLASK_PLOT_PATH) == False:
+        os.mkdir(FLASK_PLOT_PATH)
     if os.path.exists(FLASK_PLOT_PATH) == True:
-        print("SAVED CHART IN WEB APP DIRECTORY")
         alt_chart.save(FLASK_PLOT_PATH+chart_path)
-
-    else:
-        alt_chart.save(UTIL_PLOT_PATH+chart_path)
-        print("SAVED CHART IN UTILITY DIRECTORY")
+        print("Saved Chart in Web App Directory")
 
 def transform_pca_output_to_df(pca_components):
     pca_df = pd.DataFrame(pca_components)
