@@ -59,7 +59,6 @@ def save_alt_chart(alt_chart, chart_path):
         alt_chart.save(FLASK_PLOT_PATH+chart_path)
         print("Saved Chart in Web App Directory")
 
-
 def save_final_predictions(preds_df, file_path):
     if os.path.exists(PREDICTION_PATH) == False:
         os.mkdir(PREDICTION_PATH)
