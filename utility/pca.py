@@ -167,7 +167,7 @@ def get_user_defined_num_components(input_prompt, component_summary):
         except ValueError as x:
             print(error_type_msg)
             continue
-        if integer > component_summary.min_components and integer < component_summary.max_components:
+        if bool(integer > component_summary.min_components) == True and bool(integer < component_summary.max_components) == True:
             valid_input = True
             validated = integer
         else:
