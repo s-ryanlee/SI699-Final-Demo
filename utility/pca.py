@@ -199,7 +199,7 @@ pca_exp_var['cum_exp_var_pcent'] = pca_exp_var.cum_exp_var * 100
 
 # define explained variance thresholds
 # get number of components according to threshold
-threshold, number_components, optim_summary = narrow_num_components(return_summary=True, print_components=True)
+threshold, number_components, optim_summary = narrow_num_components(user_input=True, return_summary=True, print_components=True)
 
 # plot optimal number of components
 # base chart
