@@ -146,8 +146,8 @@ def narrow_num_components(user_input=False, return_summary=True, print_component
 
 def optimize_pca(train_scaled, optim_summary, use_default_components=True):
     if use_default_components == False:
-        user_input = input("Please enter the number of components to fit:")
-        num_components = get_user_defined_num_components(user_input, optim_summary)
+        user_input_prompt = "Please enter the number of components to fit:"
+        num_components = get_user_defined_num_components(user_input_prompt, optim_summary)
     else:
         print("Using Default Number Components for Optimization")
         num_components = int(optim_summary.med_components.values)
