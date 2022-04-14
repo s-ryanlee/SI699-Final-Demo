@@ -1,0 +1,14 @@
+jupyter
+pandas
+seaborn
+matplotlib
+numpy
+sklearn
+altair
+flask
+requests
+beautifulsoup4
+html5lib
+openpyxl
+seaborn
+statsmodels
