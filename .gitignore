@@ -7,3 +7,4 @@ flask/venv_flask/
 flaskapp.pem
 flask/venv_flaskapp
 utility/__pycache__
+utility/data/
