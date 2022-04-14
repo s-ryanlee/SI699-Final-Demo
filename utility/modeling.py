@@ -53,14 +53,12 @@ def save_table_as_html(df, table_path):
         print("SAVED CHART IN UTILITY DIRECTORY")
 
 def save_alt_chart(alt_chart, chart_path):
-    if os.path.exists(UTIL_PLOT_PATH) == False:
-        os.mkdir(UTIL_PLOT_PATH)
+    if os.path.exists(FLASK_PLOT_PATH) == False:
+        os.mkdir(FLASK_PLOT_PATH)
     if os.path.exists(FLASK_PLOT_PATH) == True:
         alt_chart.save(FLASK_PLOT_PATH+chart_path)
         print("Saved Chart in Web App Directory")
-    else:
-        alt_chart.save(UTIL_PLOT_PATH+chart_path)
-        print("Saved Chart in Utility Directory")
+
 
 def save_final_predictions(preds_df, file_path):
     if os.path.exists(PREDICTION_PATH) == False:
