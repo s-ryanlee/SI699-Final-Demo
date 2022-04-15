@@ -13,11 +13,11 @@ Demo of W22 SI699 Big Data Mastery Course Project
 
 ## Utility Scripts
 ![scrape.py](img_src/utilscripts/scrape.png)
-![preprocess_codebook.py](img_src/utilscripts/reprocess_codebook.png)
+![preprocess_codebook.py](img_src/utilscripts/preprocess_codebook.png)
 ![preprocess_data.py](img_src/utilscripts/preprocess_data.png)
 ![pca.py](img_src/utilscripts/pca.png)
 ![modeling.py](img_src/utilscripts/modeling.png)
-![insights.py](img_src/utilscripts/insights.png)
+![insights.py](img_src/utilscripts/insights.py.png)
 
 ## Flask Web Application
 ![homepage](img_src/flaskapp/homepage.png)
