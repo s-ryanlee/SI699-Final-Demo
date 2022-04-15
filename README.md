@@ -10,3 +10,11 @@ Demo of W22 SI699 Big Data Mastery Course Project
 ![Slide6](img_src/presentation/slide6.png)
 ![Slide7](img_src/presentation/slide7.png)
 ![Slide8](img_src/presentation/slide8.png)
+
+## Utility Scripts
+![scrape.py](img_src\utilscripts\scrape.png)
+![preprocess_codebook.py](img_src\utilscripts\preprocess_codebook.png)
+![preprocess_data.py](img_src\utilscripts\preprocess_data.png)
+![pca.py](img_src\utilscripts\pca.png)
+![modeling.py](img_src\utilscripts\modeling.png)
+![insights.py](img_src\utilscripts\insights.png)
