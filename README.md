@@ -12,9 +12,20 @@ Demo of W22 SI699 Big Data Mastery Course Project
 ![Slide8](img_src/presentation/slide8.png)
 
 ## Utility Scripts
-![scrape.py](img_src\utilscripts\scrape.png)
-![preprocess_codebook.py](img_src\utilscripts\preprocess_codebook.png)
-![preprocess_data.py](img_src\utilscripts\preprocess_data.png)
-![pca.py](img_src\utilscripts\pca.png)
-![modeling.py](img_src\utilscripts\modeling.png)
-![insights.py](img_src\utilscripts\insights.png)
+![scrape.py](img_src/utilscripts/scrape.png)
+![preprocess_codebook.py](img_src/utilscripts/reprocess_codebook.png)
+![preprocess_data.py](img_src/utilscripts/preprocess_data.png)
+![pca.py](img_src/utilscripts/pca.png)
+![modeling.py](img_src/utilscripts/modeling.png)
+![insights.py](img_src/utilscripts/insights.png)
+
+## Flask Web Application
+![homepage](img_src/flaskapp/homepage.png)
+![components](img_src/flaskapp/optim_components.png)
+![pca2012](img_src/flaskapp/pca1.png)
+![pca2018](img_src/flaskapp/pca2.png)
+![predictions](img_src/flaskapp/predict.png)
+![residuals](img_src/flaskapp/resid.png)
+![evaluation](img_src/flaskapp/eval.png)
+![insights](img_src/flaskapp/insights.png)
+![pba modeling](img_src/flaskapp/modeling.png)
